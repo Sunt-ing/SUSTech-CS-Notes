@@ -1,0 +1,72 @@
+<!DOCTYPE	html>
+<html lang="en">
+<head> <link rel="stylesheet" type="text/css" href="table.css"/>
+    <meta charset="UTF-8">
+    <title>SUSTech Parking Record</title>
+    <script type="text/javascript" src="table.js"></script>
+</head>
+<body onload="initial()">
+
+<table>
+    <caption id="a"><h2>SUSTech Parking Record</h2></caption>
+    <tr>
+        <th>License Plate Number</th>
+        <th>Entrance Number</th>
+        <th>Date</th>
+        <th>Arrival	Time</th>
+        <th>Departure	Time</th>
+        <th>Staff Name</th>
+        <th>Staff Number</th>
+        <th>Status</th>
+        <td>
+        </td>
+    </tr>
+
+    <tbody id="tbody" style="display:	none">
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+            <input type="button" value="Delete" onclick="removeRow(this)">
+        </td>
+    </tr>
+    </tbody>
+
+</table>
+
+<div id="DisSheet" >
+    <input id="disButton" type="button" value="Display sheet" onclick="dispSheet()" >
+</div>
+
+<div id="table1" style="display: none">
+    <form name="form1">
+        License Plate Number:粤B	<input type="text" name="License Plate Number"/><br>
+        Entrance Number:	<input type="text" name="Entrance Number"/><br>
+        Date:
+        <select id="year" onchange="setMonth()"></select> year
+        <select id="month" onchange="setDay()"></select> month
+        <select id="day"></select> day	<br>
+
+        Arrival	Time:<select id="ahour"></select>:
+            <select id="aminute"></select><br>
+        Status:<select id="Status" onchange="setDepartmentTime()"></select><br>
+        Departure	Time:<select id="dhour"></select>:
+            <select id="dminute"></select><br>
+
+        Staff Name:<input type="text" name="Staff Name"/>
+        Staff Number:<input type="text" name="Staff Number"/><br>
+
+        <input id="commit" type="button" value="Add	record" onclick="onClickAddFlight()">
+
+        <input id="HideSheet" type="button" value="Hide sheet" onclick="hideSheet()"><br>
+    </form>
+</div>
+
+</body>
+</html>
