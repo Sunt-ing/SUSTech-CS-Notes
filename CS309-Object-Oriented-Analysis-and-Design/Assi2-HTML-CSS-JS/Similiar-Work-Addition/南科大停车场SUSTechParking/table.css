@@ -1,0 +1,105 @@
+@CHARSET	"UTF-8";
+
+#a	{
+    font-size:	15px;
+    color: #039;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+input[type="button"]{
+        background-color: #C2C6D6;
+        border: none;
+        color: white;
+        padding: 3px 6px;
+        text-align: center;
+        font-size: 10px;
+        margin: 4px 2px;
+}
+
+#DisSheet{
+      text-align:	center;
+}
+
+#disButton{
+      font-size:	11px;
+      text-align:	center;
+      color: white;
+      background-color: #A4ADD2;
+      width:	80px;
+      height:	20px;
+}
+
+#HideSheet{
+      background-color:	#F1F5FC;
+      font-size:	14px;
+      background-color:#EDECF0;
+      width:	90px;
+      height:	20px;
+      text-align:	center;
+      color: #000077;
+      margin: 10 auto;
+      padding: 0 auto;
+}
+
+#table1	{
+    line-height:	40px;
+    width:	400px;
+    height:	300px;
+    text-align:	center;
+    background-color:	#F4F7F9;
+    font-size:	13px;
+    color:#000088;
+    margin:	30px auto ;
+}
+
+#commit{
+    background-color:	#F1F5FC;
+    font-size:	14px;
+    background-color:#EDECF0;
+    width:	90px;
+    height:	20px;
+    text-align:	center;
+    color: #000077;
+}
+
+input[type="text"]{
+    color: #555;
+    width:	43px;
+    height:	14px;
+    font-size:	14px;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align:center;
+}
+
+table {
+        border-collapse: collapse;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+body {
+	line-height: 1.6em;
+}
+
+
+th {
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+
+td{
+	color: #669;
+	font-size: 13px;
+	padding: 9px 8px 0px 8px;
+}
+
+tbody tr {
+	color: #009;
+}
+
