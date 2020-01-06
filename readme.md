@@ -11,3 +11,20 @@
 
 1. ##### 卢之睿姥爷的笔记：https://github.com/jerrylususu/LectureNotes.git
 
+
+
+目录
+
+《概率论与数理统计》整理
+
+​	说明：网络上的笔记，比较清晰。
+
+CS309-Object-Oriented-Analysis-and-Design
+
+​	说明：面向对象的五次作业
+
+Non-CS
+
+​	
+
+说明：主要是《计算机网络：一种自顶向下的方法》前三章的读书笔记，比计算机网络课程要求的知识点略多。对应计算机网络期中考试范围。
