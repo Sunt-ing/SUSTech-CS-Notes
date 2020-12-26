@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<document>
+
+ <properties>
+  <title>Java date and time API - Tasks outstanding</title>
+  <author email="scolebourne@users.sourceforge.net">Stephen Colebourne</author>
+ </properties>
+
+ <body>
+
+<section name="Tasks outstanding">
+
+<p>
+The following tasks are on the possible TODO list - contact the mailing lists for more details:
+</p>
+
+<ul>
+<li>Add more chronologies - Ethiopian, Hebrew, Islamic, Persian, Hindu, Thai, Chinese, Japanese,...</li>
+<li>Consider methods to easily get to the last day in a month</li>
+<li>Consider formatting ordinal numbers, like 1st, 2nd, 3rd</li>
+<li>Consider allowing the text output to be altered</li>
+</ul>
+
+<p>
+Would you like to <a href="mailto:scolebourne@users.sourceforge.net">volunteer</a>?
+</p>
+</section>
+
+</body>
+</document>
+
+
+
+
+
+

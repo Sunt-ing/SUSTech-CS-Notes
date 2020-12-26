@@ -1,0 +1,92 @@
+Joda-Time version 1.0
+---------------------
+
+Joda-Time is a date and time handling library that seeks to replace the JDK
+Date and Calendar classes.
+
+This is the first full release of Joda-Time.
+There have been a number of alpha/beta releases however.
+
+We now recommend JDK 1.3 or later, and have performed no testing on earlier JDKs.
+
+Incompatible changes since 0.98
+-------------------------------
+- ReadablePartial/YearMonthDay/TimeOfDay
+  - removed methods toDateTime(), toDateTime(DateTimeZone zone), as their meaning was confused.
+  On YearMonthDay, use toDateTimeAtCurrentTime() or toDateTimeAtMidnight().
+  On TimeOfDay, use toDateTimeToday().
+
+- DateTime/DateMidnight/MutableDateTime
+  - removed getReadableInstant() from the property classes
+  On DateTime.Property, use getDateTime().
+  On DateMidnight.Property, use getDateMidnight().
+  On MutableDateTime.Property, use getMutableDateTime().
+
+- ReadableInstant
+  - added method isSupported(DateTimeFieldType field)
+  Implemented in DateTime/DateMidnight/MutableDateTime 
+
+- YearMonthDay/TimeOfDay
+  - removed getReadablePartial() from the property classes
+  On YearMonthDay.Property, use getYearMonthDay().
+  On TimeOfDay.Property, use getTimeOfDay().
+
+- TimeOfDay
+  - semantic change to TimeOfDay.Property.addToCopy()
+  Previously, add threw an exception if the 23:59/00:00 boundary was broken.
+  Now it wraps to the next 'day', as this is the more typical use case.
+  Change to the method TimeOfDay.Property.addNoWrapToCopy() to restore the old behaviour.
+
+
+Bug fixes since 0.98
+--------------------
+
+- Interval/MutableInterval isAfter(ReadableInterval) - fixed bug when intervals abutted
+
+- Parsing periods of the form PT... - fixed bug that prevented parsing
+
+- Period parsing now more strict - 'T' character required to separate date and
+  time in ISO periods
+
+- Fixed parsing of fractional seconds in Periods
+
+- Default time zone based on offset was being interpreted as UTC
+
+- Fixed NullPointerException in DateTimeFormat
+
+- DateTimeFormat would use date style for time style
+
+- DateTimeFormatterBuilder was using wrong time zone for text fields
+
+- Avoid NPE in property(DateTimeFieldType) methods
+
+
+Enhancements since 0.98
+-----------------------
+
+- YearMonthDay/TimeOfDay
+  - add toString variants that take a pattern
+  - add withField(), withFieldAdded(), withPeriodAdded(), plus() and minus()
+
+- DateTimeField
+  - Add methods getAsText(int, Locale) and getAsShortText(int, Locale) for
+    simple access to text values
+
+- Period
+  - Added support to create periods from a duration and an end instant
+  - Periods can be converted to durations by end instant too
+
+- Duration
+  - Durations can be converted to periods by end instant too
+  - Durations can be converted to intervals by end instant too
+
+- Formatting package
+  - Restored formatting interfaces to provide same functionality as version 0.95
+
+
+Feedback
+--------
+
+All feedback is welcomed at joda-interest@lists.sourceforge.net.
+
+The Joda team
