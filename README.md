@@ -7,7 +7,7 @@
 
 <br>
 
-| 计算机网络 | 人工智能 | 数据库 |嵌入式|面向对象|计算机安全&nbsp;&nbsp;|算法设计与分析| &nbsp;&nbsp;软件测试|计算机科学导论| &nbsp;&nbsp;思政、社科、人文&nbsp;&nbsp; |
+| 计算机网络 | 人工智能 | 数据库 |嵌入式|面向对象|计算机安全|算法设计与分析| 软件测试|计算机科学导论|思政、社科、人文|
 | :---: | :----: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | [:cloud:](#cloud-计算机网络) | [:computer:](#computer-人工智能) | [:floppy_disk:](#floppy_disk-数据库)| [:bulb:](#bulb-嵌入式) |[:art:](#art-面向对象)| [:wrench:](#wrench-计算机安全) |[:pencil2:](#pencil2-算法设计和分析)|.[:watermelon:](#watermelon-软件测试) |[:memo:](#memo-计算机科学导论)|[:coffee:](#coffee-思政社科人文)|
 
