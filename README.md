@@ -66,7 +66,7 @@
 
 ### <br>
 
-### :floppy_disk: 数据库系统
+### :floppy_disk: 数据库
 
 #### 《MySQL必知必会》学习笔记
 - 对《MySQL必知必会》一书的完整学习笔记。
