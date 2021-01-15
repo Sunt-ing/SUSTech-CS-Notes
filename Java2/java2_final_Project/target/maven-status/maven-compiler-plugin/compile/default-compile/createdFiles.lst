@@ -1,0 +1,12 @@
+util\SuccessResponse.class
+demo\DemoClient.class
+service\TextService.class
+util\FailureResponse.class
+util\Response.class
+model\Document.class
+util\Utils.class
+demo\Course.class
+util\FailureCause.class
+dao\TextDao.class
+demo\DemoServer.class
+demo\DemoDBHelper.class

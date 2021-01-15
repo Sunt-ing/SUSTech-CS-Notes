@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title> Awesome IR </title>
+    <link href="web/font-awesome.min.css" rel="stylesheet"/>
+<!--    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>-->
+
+    <script type="text/javascript">
+        let flag = 0;
+
+        function basic_query() {
+            flag = 0;
+            WebSocketTest();
+            console.log("basic_query")
+        }
+
+        function boolean_query() {
+            flag = 1;
+            WebSocketTest();
+            console.log("boolean_query")
+        }
+
+        function likes_query() {
+            flag = 2;
+            WebSocketTest();
+            console.log("likes_query")
+        }
+
+        function shares_query() {
+            flag = 3;
+            WebSocketTest();
+            console.log("shares_query")
+        }
+
+        function comments_query() {
+            flag = 4;
+            WebSocketTest();
+            console.log("comments_query")
+        }
+
+        function hot_query() {
+            flag = 5;
+            WebSocketTest();
+            console.log("hot_query")
+        }
+
+        function video_query() {
+            flag = 6;
+            WebSocketTest();
+            console.log("video_query")
+        }
+
+        function WebSocketTest() {
+            let ws = new WebSocket("ws://localhost:4200");
+            console.log('已连接');
+            let input = document.forms["myForm"]["fname"].value;
+
+            ws.onopen = function () {
+                console.log('发送内容是：' + input);
+                ws.send(flag + '' + input);
+                flag = 0;
+                console.log('发完了');
+            };
+
+            ws.onmessage = function (evt) {
+                console.log("收到了" + evt.data);
+                document.getElementById('out').value = evt.data;
+                // ws.close();
+            };
+
+            ws.onclose = function () {
+                console.log("连接已关闭...");
+            };
+        }
+    </script>
+
+</head>
+<body class="home-template">
+<header class="site-header" style="background: #262640">
+    <nav class="navbar navbar-static-top main-navbar" id="top">
+    </nav>
+    <div class="container jumbotron" style="background: #262640">
+        <div class="row">
+            <div class="col-xs-12">
+                <!--              height: 100px; width: 100%-->
+                <h1 style="color: #FFFFFF; text-align: center; text-shadow: black 0.1em 0.1em 0.1em;">Awesome IR</h1>
+                <p style="text-align: center; color: #FFFFFF;">Reliable US financial news search<br/>
+                    <span class="package-amount"
+                          style="text-align: center; color: #FFFFFF;">Over <strong>300, 000</strong> pieces of news!
+                    </span>
+                </p>
+                <div class="search-wraper" role="search">
+                    <form name="myForm">
+                        <input class="form-control search clearable" id="fname" placeholder="Your input text..."
+                               autocomplete="off" autofocus="" tabindex="0" autocapitalize="off" spellcheck="false"
+                               style="width: 100%;" name="q"/>
+                        <button type="button" class="btn btn-primary" onclick="basic_query()">Normal Query</button>
+                        <button type="button" class="btn btn-primary" onclick="boolean_query()">Boolean Query</button>
+                        <button type="button" class="btn btn-primary" onclick="likes_query()">Sort by Likes</button>
+                        <button type="button" class="btn btn-primary" onclick="shares_query()">Sort by Shares</button>
+                        <button type="button" class="btn btn-primary" onclick="comments_query()">Sort by Comments
+                        </button>
+                        <button type="button" class="btn btn-primary" onclick="hot_query()">Sort by Hot</button>
+                        <button type="button" class="btn btn-primary" onclick="video_query()">Video</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container protocal-notice hidden-xs"
+     style="background: #262640; color: #ffffff; font-family: 'Microsoft JhengHei'">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="pull-right">
+                Wow, you can really search!
+            </div>
+        </div>
+    </div>
+</div>
+
+<main class="packages-list-container" id="all-packages"
+      style="background: #262640; color: #ffffff; font-family: 'Microsoft JhengHei','Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif'">
+    <div class="container" style="background: #262640; color: #ffffff">
+        <div class="list-group packages" id="common-packages">
+            <textarea class="package list-group-item all-packages" id="out"
+                      style="height: 400px; width: 100%;  color: #333333"
+                      placeholder="Best result for you..."></textarea>
+        </div>
+        <div class="list-group packages" id="search-results" style="display: none"></div>
+    </div>
+
+</main>
+
+<footer id="footer" class="footer hidden-print" style="background: #262640; color: #ffffff">
+    <div class="container">
+        <div class="row">
+            <div class="footer-about col-md-6 col-sm-12" id="about">
+                <h4>About Awesome IR</h4>
+                <p>Powered by my poor PC</p>
+                <p>Adopted from <a href="https://github.com/rayiooo/SduViewWebSpider" target="_blank"> Rayiooo
+                    Search </a></p>
+            </div>
+            <div class="footer-links col-md-4 col-sm-12">
+                <h4>My Link</h4>
+                <ul class="list-unstyled list-inline">
+                    <li><a href="http://sunt-ing.github.io/" target="_blank"
+                           onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-bootcss.com'])">My GtiHUb
+                        pages</a></li>
+                </ul>
+            </div>
+            <div class="footer-techs col-md-2 col-sm-12">
+                <h4>Tech involved</h4>
+                <ul class="list-unstyled list-inline">
+                    <li><a>fuzzy search</a></li>
+                    <li><a>tf-idf</a></li>
+                    <li><a>websocket</a></li>
+                    <li><a>SPIMI</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

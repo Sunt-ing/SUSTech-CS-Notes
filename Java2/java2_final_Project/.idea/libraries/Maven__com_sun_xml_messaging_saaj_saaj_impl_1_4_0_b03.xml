@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.4.0-b03">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/messaging/saaj/saaj-impl/1.4.0-b03/saaj-impl-1.4.0-b03.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/messaging/saaj/saaj-impl/1.4.0-b03/saaj-impl-1.4.0-b03-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/messaging/saaj/saaj-impl/1.4.0-b03/saaj-impl-1.4.0-b03-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

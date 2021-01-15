@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c5d91de-a6e3-4f2b-8f11-f47a8e43973d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cIdgexFOX7eRVLZj3fE3aAVsAq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code_IDEA\java2_project_in_all\java2_final_Project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="RESTfulCorpusPlatform" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <module name="RESTfulCorpusPlatform" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c5d91de-a6e3-4f2b-8f11-f47a8e43973d" name="Default Changelist" comment="" />
+      <created>1590220153666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590220153666</updated>
+      <workItem from="1590220158894" duration="1152000" />
+      <workItem from="1590221334956" duration="40046000" />
+      <workItem from="1590308826018" duration="18065000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="158" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590372923116">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="345" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1590372923116" />
+    <state x="445" y="28" key="#com.intellij.ide.util.MemberChooser" timestamp="1590253288638">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="445" y="28" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1590253288638" />
+    <state width="1235" height="223" key="GridCell.Tab.0.bottom" timestamp="1590374950631">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1235" height="223" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1590374950631" />
+    <state width="1235" height="223" key="GridCell.Tab.0.center" timestamp="1590374950631">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1235" height="223" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1590374950631" />
+    <state width="1235" height="223" key="GridCell.Tab.0.left" timestamp="1590374950631">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1235" height="223" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1590374950631" />
+    <state width="1235" height="223" key="GridCell.Tab.0.right" timestamp="1590374950631">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1235" height="223" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1590374950631" />
+    <state x="156" y="0" key="SettingsEditor" timestamp="1590370999996">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="156" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1590370999996" />
+    <state x="344" y="87" width="592" height="516" key="find.popup" timestamp="1590287405835">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="344" y="87" width="592" height="516" key="find.popup/0.0.1280.689@0.0.1280.689" timestamp="1590287405835" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1590306829065">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1280.689@0.0.1280.689" timestamp="1590306829065" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1590372900825">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1590372900825" />
+  </component>
+</project>
