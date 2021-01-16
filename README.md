@@ -177,4 +177,4 @@
   - [Gogo的各种笔记](https://github.com/Gogomoe?tab=repositories)
   - [卢之睿的各种笔记](https://github.com/jerrylususu?tab=repositories)
   - [王子勤的各种笔记]()，特别是[计网lab](https://github.com/ziqin/CS305-Lab)
-  - [李子强的课程笔记](https://github.com/liziwl?tab=repositories)
+  - [李子强的各种笔记](https://github.com/liziwl?tab=repositories)
