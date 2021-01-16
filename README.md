@@ -2,7 +2,7 @@
 
 主要是一些和计算机、人文、社科、思政相关的作业笔记，~~在我退学前~~还会更新的！ :rocket: :rocket:  
 
-自2021年1月16日起，本项目的license变更为：You use you star。见：[LICENSE](./LICENSE.md)
+自2021年1月16日起，本项目的license变更为：YUYS。见：[LICENSE](./LICENSE.md)
 
 <br>
 
