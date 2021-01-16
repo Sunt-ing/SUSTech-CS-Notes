@@ -167,7 +167,7 @@
 
 <br>
 
-### :sparkles:友情链接
+## :sparkles: 友情链接
 
 - 统一放置的
   - [安德的课程笔记](https://github.com/Lyther/Lecture-Notes)
