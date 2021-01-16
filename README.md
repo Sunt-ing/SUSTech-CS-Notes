@@ -129,6 +129,8 @@
 
 #### 零碎的作业
 
+- 某些lab的作业
+
 #### Awesome IR-Final Project
 
 - 一个对美国新闻的简单检索系统。Demo视频见：[我在B站的投稿视频](https://www.bilibili.com/video/BV1di4y1s7as?from=search&seid=8555456331614841703)
