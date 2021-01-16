@@ -1,8 +1,10 @@
 ## 说明
 
-主要是一些和计算机、人文、社科、思政相关的作业笔记 :airplane: :airplane: :airplane:   
+主要是一些和计算机、人文、社科、思政相关的作业笔记。
 
-~~在我退学前~~大概还会更新的 :rocket: :rocket: :rocket:  
+ ~~在我退学前~~还会更新的！
+
+:airplane: :rocket: :rocket:  :airplane: 
 
 <br>
 
