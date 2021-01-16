@@ -1,14 +1,14 @@
-### 说明
+## 说明
 
 主要是一些和计算机、人文、社科、思政相关的作业笔记，~~在我退学前~~还会更新的！ :rocket: :rocket:  
 
 现在这个项目的license是 [YUYS](./LICENSE.md)。
 
-哦对，这里有一些[其他同学的课程相关仓库](#友情链接)。
+哦对，这里有一些[其他同学的课程相关仓库](#:thumbsup:友情链接)。
 
 <br>
 
-### 简介
+## 简介
 
 #### 必修课
 
@@ -167,13 +167,14 @@
 
 <br>
 
-### 友情链接
+## :thumbsup:友情链接
 
 - 统一放置的
   - [安德的课程笔记](https://github.com/Lyther/Lecture-Notes)
   - [卢之睿的课程笔记](https://github.com/jerrylususu/LectureNotes)
 
 - 需自行查找的
+  - [Gogo的各种笔记](https://github.com/Gogomoe?tab=repositories)
   - [卢之睿的各种笔记](https://github.com/jerrylususu?tab=repositories)
   - [王子勤的各种笔记]()，特别是[计网lab](https://github.com/ziqin/CS305-Lab)
   - [李子强的课程笔记](https://github.com/liziwl?tab=repositories)
