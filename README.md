@@ -169,11 +169,11 @@
 
 ## :sparkles: 友情链接
 
-- 统一放置的
+- 所有课程统一存放：
   - [安德的课程笔记](https://github.com/Lyther/Lecture-Notes)
   - [卢之睿的课程笔记](https://github.com/jerrylususu/LectureNotes)
 
-- 需自行查找的
+- 不同课程分别建库：
   - [Gogo的各种笔记](https://github.com/Gogomoe?tab=repositories)
   - [卢之睿的各种笔记](https://github.com/jerrylususu?tab=repositories)
   - [王子勤的各种笔记]()，特别是[计网lab](https://github.com/ziqin/CS305-Lab)
