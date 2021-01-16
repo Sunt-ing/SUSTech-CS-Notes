@@ -1,4 +1,4 @@
-`YUYS` License
+YUYS License
 
 Copyright (c) 2021 Sunt 
 
