@@ -9,3 +9,9 @@
 - 有不少issue，可以满足project的要求
 - 开发者很积极热情，项目处于良好的维护中
 - 项目不算很热门，所以竞争不多
+
+
+
+PS：有一个和AssertJ类似的项目：https://github.com/google/truth
+
+以供备选。
