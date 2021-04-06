@@ -177,6 +177,7 @@
 - 所有课程统一存放：
   - [安德的课程笔记](https://github.com/Lyther/Lecture-Notes)
   - [卢之睿的课程笔记](https://github.com/jerrylususu/LectureNotes)
+  - [傅伟堡的课程笔记](https://github.com/Fu188/SUSTech_Course)
 
 - 不同课程分别建库：
   - [Gogo的各种笔记](https://github.com/Gogomoe?tab=repositories)
