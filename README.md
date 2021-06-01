@@ -169,7 +169,7 @@
 
 <br>
 
-### :dash:并行与云计算
+### :dash: 并行与云计算
 
 来自Georgios Theodoropoulos老师2021春季学期的《分布式与云计算》课程。
 
