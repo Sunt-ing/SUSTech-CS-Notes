@@ -20,6 +20,8 @@
 | :----------------------------: | ------------------------------ | :--------------------: | :-----------------------: | :----------------------------------: | ------------------------- | :--------------------------------: |
 | [:memo:](#memo-计算机科学导论) | [:wrench:](#wrench-计算机安全) | [:zap:](#zap-信息检索) | [:coffee:](#coffee-Java2) | [:watermelon:](#watermelon-软件测试) | [:dash:](#dash-并行与云计算) | [:cyclone:](#cyclone-思政社科人文) |
 
+点击图标可直达对应的章节~
+
 <br>
 
 ### :cloud: 计算机网络
@@ -192,11 +194,12 @@
 - 所有课程统一存放：
   - [安德的课程笔记](https://github.com/Lyther/Lecture-Notes)
   - [卢之睿的课程笔记](https://github.com/jerrylususu/LectureNotes)
+  - [傅伟堡的课程笔记](https://github.com/Fu188/SUSTech_Course)
 
 - 不同课程分别建库：
   - [Gogo的各种笔记](https://github.com/Gogomoe?tab=repositories)
   - [卢之睿的各种笔记](https://github.com/jerrylususu?tab=repositories)
-  - [王子勤的各种笔记]()，特别是[计网lab](https://github.com/ziqin/CS305-Lab)
+  - [王子勤的各种笔记](https://github.com/ziqin)，特别是[计网lab](https://github.com/ziqin/CS305-Lab)
   - [李子强的各种笔记](https://github.com/liziwl?tab=repositories)
   
 
