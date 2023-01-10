@@ -2,7 +2,7 @@
 
 主要是一些和计算机、人文、社科、思政相关的作业笔记。
 
-目前人已退学，四年里一事无成，彻底失败 :sob::sob::sob:
+目前人已退学，从2017年到2021年的四年里一事无成，彻底失败 :sob::sob::sob:
 
 哦对，这里有一些[其他同学的课程相关仓库](#sparkles-友情链接)。
 
@@ -23,6 +23,64 @@
 | [:memo:](#memo-计算机科学导论) | [:wrench:](#wrench-计算机安全) | [:zap:](#zap-信息检索) | [:coffee:](#coffee-Java2) | [:watermelon:](#watermelon-软件测试) | [:dash:](#dash-并行与云计算) | [:cyclone:](#cyclone-思政社科人文) |
 
 点击图标可直达对应的章节~
+
+<br>
+
+### :dash: 并行与云计算
+
+来自Georgios Theodoropoulos老师2021春季学期的《分布式与云计算》课程。
+
+#### 《分布式模拟题题库-纯题自测》
+
+- 自测题。可以查漏补缺，写完看看《分布式模拟题题库-题目与答案》。
+
+#### 《分布式模拟题题库-题目与答案》
+
+- 带答案的自测题。
+
+<br>
+
+### :zap: 信息检索
+
+来自宋轩老师~~的博士生~~的2020年春季学期《信息检索》课程。
+
+#### 零碎的作业
+
+#### Awesome IR
+
+- 课程的 Final Project
+- 一个对美国新闻的简单检索系统。
+- Demo视频见：[我在B站的投稿视频](https://www.bilibili.com/video/BV1di4y1s7as?from=search&seid=8555456331614841703)
+
+<br>
+
+### :bulb: 嵌入式
+
+来自史玉回老师2018秋季学期的《嵌入式系统》课程。
+
+#### 《嵌入式》课程笔记
+
+#### 期末project
+
+- 嵌入式Project？:x:  东方Project？:heavy_check_mark:
+- Demo见：[我在B站投稿的视频](https://www.bilibili.com/video/BV1WJ411x77P)
+- 源码见：[姚鑫源姐姐在GitHub上的开源仓库](https://github.com/IF-ACT/SUSTech-Embedded_System-Project)
+
+<br>
+
+### :snowman: 软件工程
+
+#### 《在GitHub上提问的智慧》摘要
+
+- 对于怎么开一个issue、怎么和开发者聊天等问题都有一个很好的解答。
+
+#### 《开源项目入门指南》
+
+- 对于project选题、交pull request等有指导意义。
+
+#### 《软件工程期末project选题推荐》
+
+- 我的project选题建议。必看！
 
 <br>
 
@@ -77,19 +135,6 @@
 
 <br>
 
-### :bulb: 嵌入式
-
-来自史玉回老师2018秋季学期的《嵌入式系统》课程。
-
-#### 《嵌入式》课程笔记
-
-#### 期末project
-
-- 嵌入式Project？:x:  东方Project？:heavy_check_mark:
-- Demo见：[我在B站投稿的视频](https://www.bilibili.com/video/BV1WJ411x77P)
-- 源码见：[姚鑫源姐姐在GitHub上的开源仓库](https://github.com/IF-ACT/SUSTech-Embedded_System-Project)
-
-<br>
 
 ### :pencil2: 算法设计与分析
 
@@ -110,21 +155,6 @@
 
 <br>
 
-### :snowman: 软件工程
-
-#### 《在GitHub上提问的智慧》摘要
-
-- 对于怎么开一个issue、怎么和开发者聊天等问题都有一个很好的解答。
-
-#### 《开源项目入门指南》
-
-- 对于project选题、交pull request等有指导意义。
-
-#### 《软件工程期末project选题推荐》
-
-- 我的project选题建议。必看！
-
-<br>
 
 ### :memo: 计算机科学导论
 
@@ -142,19 +172,6 @@
 
 <br>
 
-### :zap: 信息检索
-
-来自宋轩老师~~的博士生~~的2020年春季学期《信息检索》课程。
-
-#### 零碎的作业
-
-#### Awesome IR
-
-- 课程的 Final Project
-- 一个对美国新闻的简单检索系统。
-- Demo视频见：[我在B站的投稿视频](https://www.bilibili.com/video/BV1di4y1s7as?from=search&seid=8555456331614841703)
-
-<br>
 
 ### :coffee: Java2
 
@@ -172,19 +189,6 @@
 
 <br>
 
-### :dash: 并行与云计算
-
-来自Georgios Theodoropoulos老师2021春季学期的《分布式与云计算》课程。
-
-#### 《分布式模拟题题库-纯题自测》
-
-- 自测题。可以查漏补缺，写完看看《分布式模拟题题库-题目与答案》。
-
-#### 《分布式模拟题题库-题目与答案》
-
-- 带答案的自测题。
-
-<br>
 
 ### :cyclone: 思政、社科、人文
 
